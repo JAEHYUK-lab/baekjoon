@@ -14,9 +14,10 @@ public class _15596 {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		int[] a = new int[1000000];
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int[] a = new int[1000000];
 		int n = Integer.parseInt(br.readLine());
+		
 		for(int i=0; i<=n; i++) {
 			a[i] = i;
 		}
