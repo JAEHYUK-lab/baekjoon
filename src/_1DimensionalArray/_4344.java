@@ -27,7 +27,7 @@ public class _4344 {
 					count++;
 			}
 			System.out.println(String.format("%.3f", (count/n)*100) + "%");
-			System.out.printf("%.3f%%\n", (count/n)*100);
+			//System.out.printf("%.3f%%\n", (count/n)*100);
 			sum=0;
 			count=0;
 		}
