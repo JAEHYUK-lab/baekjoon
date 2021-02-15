@@ -38,7 +38,7 @@ public class _1992 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		n = Integer.parseInt(br.readLine());
 		tree = new int[n][n];
-
+		
 		for (int i = 0; i < n; i++) {
 			String str = br.readLine();
 			for (int j = 0; j < n; j++) {
