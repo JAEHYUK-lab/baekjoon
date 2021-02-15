@@ -40,7 +40,7 @@ public class _10816 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 
-		// StringBuilder »ç¿ë
+		// StringBuilder ï¿½ï¿½ï¿½
 		StringBuilder sb = new StringBuilder();
 
 		int[] num = new int[20000001];
@@ -58,7 +58,7 @@ public class _10816 {
 
 		System.out.println(sb);
 
-		// ¹è¿­ »ç¿ë
+		// ï¿½è¿­ ï¿½ï¿½ï¿½
 		/*int[] num1 = new int[n];
 
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -87,7 +87,7 @@ public class _10816 {
 			System.out.print(num3[i] + " ");
 		}*/
 
-		// ÀÌºÐ Å½»ö
+		// ï¿½Ìºï¿½ Å½ï¿½ï¿½
 		/*StringTokenizer st = new StringTokenizer(br.readLine());
 		int[] num = new int[n];
 
