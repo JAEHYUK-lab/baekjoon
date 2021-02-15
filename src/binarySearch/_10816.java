@@ -24,7 +24,6 @@ public class _10816 {
 				while (--tmp >= 0 && cards[tmp] == x) {
 					cnt++;
 				}
-
 				while (++mid < n && cards[mid] == x) {
 					cnt++;
 				}
