@@ -38,7 +38,7 @@ public class _10816 {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
 
-		// StringBuilder ���
+		// StringBuilder 사용
 		StringBuilder sb = new StringBuilder();
 
 		int[] num = new int[20000001];
@@ -56,7 +56,7 @@ public class _10816 {
 
 		System.out.println(sb);
 
-		// �迭 ���
+		// 배열 사용
 		/*int[] num1 = new int[n];
 
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -85,7 +85,7 @@ public class _10816 {
 			System.out.print(num3[i] + " ");
 		}*/
 
-		// �̺� Ž��
+		// 이분탐색 사용
 		/*StringTokenizer st = new StringTokenizer(br.readLine());
 		int[] num = new int[n];
 
