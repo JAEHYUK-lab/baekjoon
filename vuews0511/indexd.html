@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoardList</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div id="app">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container" style="text-align:center">
+                <h1>Board Detail</h1>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">목록보기</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indexw.html">글쓰기</a>
+                </li>
+            </ul>
+        </nav>
+        <board-detail></board-detail>
+    </div>
+    <script type="module">
+        import BoardDetail from "./BoardDetail.js";
+        new Vue({
+            el: "#app",
+            components: {
+                BoardDetail,
+            }
+        });
+    </script>
+</body>
+
+</html>
